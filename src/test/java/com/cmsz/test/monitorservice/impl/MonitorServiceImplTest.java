@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @RunWith(SpringJUnit4ClassRunner.class)  
 @ContextConfiguration(locations={"classpath:spring.xml"})
 public class MonitorServiceImplTest {
-
+//添加git冲突，测试git提交
 	@Autowired
 	MonitorServiceImpl monitorCPU;
 	

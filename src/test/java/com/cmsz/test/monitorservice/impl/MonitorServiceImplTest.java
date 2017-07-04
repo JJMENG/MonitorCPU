@@ -14,6 +14,7 @@ public class MonitorServiceImplTest {
 
 	@Autowired
 	MonitorServiceImpl monitorCPU;
+	
 	@Before
 	public void setUp() throws Exception {
 	}
@@ -26,5 +27,6 @@ public class MonitorServiceImplTest {
 	public void testDoService() throws Exception {
 		monitorCPU.doService();
 	}
+    //	测试git的修改
 
 }
